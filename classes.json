@@ -1,35 +1,167 @@
-{
-  "alchemist": [],
-  "arcanist": [],
-  "barbarian": [],
-  "bard": [],
-  "bloodrager": [],
-  "brawler": [],
-  "cavalier": [],
-  "cleric": [],
-  "druid": [],
-  "figher": [],
-  "gunslinger": [],
-  "hunter": [],
-  "inquinsitor": [],
-  "investigator": [],
-  "magus": [],
-  "monk": [],
-  "ninja": [],
-  "oracle": [],
-  "paladin": [],
-  "ranger": [],
-  "rogue": [],
-  "samurai": [],
-  "shaman": [],
-  "shifter": [],
-  "skald": [],
-  "slayer": [],
-  "sorcerer": [],
-  "summoner": [],
-  "swashbuckler": [],
-  "vigilante": [],
-  "warpriest": [],
-  "witch": [],
-  "wizard": []
-}
+'{
+  "alchemist": [
+    "creative",
+    "skilled",
+    "lucky"
+  ],
+  "arcanist": [
+    "creative",
+    "skilled",
+    "focused"
+  ],
+  "barbarian": [
+    "aggressive",
+    "violent",
+    "impulsive"
+  ],
+  "bard": [
+    "social",
+    "creative",
+    "skilled"
+  ],
+  "bloodrager": [
+    "aggressive",
+    "impulsive",
+    "focused"
+  ],
+  "brawler": [
+    "violent",
+    "impulsive",
+    "creative"
+  ],
+  "cavalier": [
+    "aggressive",
+    "brave",
+    "social"
+  ],
+  "cleric": [
+    "skilled",
+    "faithful",
+    "wise"
+  ],
+  "druid": [
+    "faithful",
+    "wise",
+    "calm"
+  ],
+  "fighter": [
+    "aggressive",
+    "brave",
+    "creative"
+  ],
+  "gunslinger": [
+    "aggressive",
+    "brave",
+    "impulsive"
+  ],
+  "hunter": [
+    "violent",
+    "skilled",
+    "lucky"
+  ],
+  "inquinsitor": [
+    "violent",
+    "social",
+    "faithful"
+  ],
+  "investigator": [
+    "brave",
+    "social",
+    "creative"
+  ],
+  "magus": [
+    "aggressive",
+    "brave",
+    "focused"
+  ],
+  "monk": [
+    "brave",
+    "creative",
+    "skilled"
+  ],
+  "ninja": [
+    "violent",
+    "skilled",
+    "calm"
+  ],
+  "oracle": [
+    "impulsive",
+    "faithful",
+    "lucky"
+  ],
+  "paladin": [
+    "brave",
+    "violent",
+    "faithful"
+  ],
+  "ranger": [
+    "brave",
+    "skilled",
+    "wise"
+  ],
+  "rogue": [
+    "violent",
+    "social",
+    "creative"
+  ],
+  "samurai": [
+    "aggressive",
+    "brave",
+    "skilled"
+  ],
+  "shaman": [
+    "creative",
+    "faithful",
+    "wise"
+  ],
+  "shifter": [
+    "impulsive",
+    "faithful",
+    "wise"
+  ],
+  "skald": [
+    "aggressive",
+    "social",
+    "impulsive"
+  ],
+  "slayer": [
+    "aggressive",
+    "violent",
+    "skilled"
+  ],
+  "sorcerer": [
+    "impulsive",
+    "creative",
+    "lucky"
+  ],
+  "summoner": [
+    "creative",
+    "calm",
+    "focused"
+  ],
+  "swashbuckler": [
+    "brave",
+    "impulsive",
+    "creative"
+  ],
+  "vigilante": [
+    "aggressive",
+    "brave",
+    "violent"
+  ],
+  "warpriest": [
+    "aggressive",
+    "violent",
+    "faithful"
+  ],
+  "witch": [
+    "impulsive",
+    "lucky",
+    "focused"
+  ],
+  "wizard": [
+    "creative",
+    "skilled",
+    "wise"
+  ]
+}'
