@@ -5,31 +5,29 @@ require 'facets'
 
 # Picks a class for a player to play
 class Generator
-  attr_accessor :classes, :attributes, :class_data
+  attr_accessor :traits
 
-  def initialize
-    @classes = class_json.keys
-    @attributes = find_attributes
-    @class_data = class_json
+  def initialize(traits)
+    @traits = traits
+    @playable_classes = playable_classes
   end
 
-  def possible_classes(traits)
-    classes = {}
-
-    class_data.each do |class_name, attributes|
-      classes[class_name] = 0
-
-      traits.each do |trait|
-        classes[class_name] += 1 if attributes.include?(trait)
-      end
+  def playable_classes
+    possible_classes.each_with_object([]) do |class_data, playable_classes|
+      class_name = class_data[0]
+      matching_attributes = class_data[1]
+      playable_classes << class_name if matching_attributes == 3
     end
-    classes.reject { |name| classes[name].zero? }
   end
 
   private
 
   def class_json
     JSON.parse(File.read('classes.json'))
+  end
+
+  def class_names
+    class_json.keys
   end
 
   def find_attributes
@@ -40,5 +38,18 @@ class Generator
       end
     end
     attributes
+  end
+
+  def possible_classes
+    classes = {}
+
+    class_json.each do |class_name, attributes|
+      classes[class_name] = 0
+
+      traits.each do |trait|
+        classes[class_name] += 1 if attributes.include?(trait)
+      end
+    end
+    classes.reject { |name| classes[name].zero? }
   end
 end
